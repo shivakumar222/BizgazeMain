@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestV3.Cities">
+        <methods>
+          <include name="Logout"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="login"/>
+          <include name="handleWindowPopup"/>
+          <include name="testCreatecity4"/>
+        </methods>
+      </class> <!-- TestV3.Cities -->
+      <class name="TestV3.Country">
+        <methods>
+          <include name="Logout"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="createCountry"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- TestV3.Country -->
+      <class name="TestV3.Districts">
+        <methods>
+          <include name="Logout"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="login"/>
+          <include name="TestDistricts"/>
+          <include name="testCreatedistrict3"/>
+        </methods>
+      </class> <!-- TestV3.Districts -->
+      <class name="TestV3.States">
+        <methods>
+          <include name="testState"/>
+          <include name="testCreatestate3"/>
+          <include name="Logout"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- TestV3.States -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
